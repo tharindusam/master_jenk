@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-11-02T16:15:26 IST" name="Default suite" finished-at="2020-11-02T16:15:28 IST" duration-ms="1516">
+    <groups>
+    </groups>
+    <test started-at="2020-11-02T16:15:26 IST" name="Default test" finished-at="2020-11-02T16:15:28 IST" duration-ms="1516">
+      <class name="com.qa.jenk.AppTest">
+        <test-method signature="selectPro(java.lang.String)[pri:0, instance:com.qa.jenk.AppTest@410ae9a3]" started-at="2020-11-02T16:15:26 IST" name="selectPro" finished-at="2020-11-02T16:15:27 IST" duration-ms="1474" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[New and Used Vehicle at Best Prices in Sri Lanka]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectPro -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.qa.jenk.AppTest@410ae9a3]" started-at="2020-11-02T16:15:28 IST" name="afterSuite" finished-at="2020-11-02T16:15:28 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.qa.jenk.AppTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

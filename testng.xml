@@ -1,0 +1,29 @@
+<!-- <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="AppTest">
+  <parameter name = "pTitle" value = "New and Used Vehicle at Best Prices in Sri Lanka"/>
+ <groups>
+ <run>
+ <include name = "MyFirst"/>
+ </run>
+  </groups>
+    <classes>
+   		<class name="com.qa.jenk.AppTest"/>
+   	</classes>
+   	<classes>
+   		<class name="com.qa.jenk.App"/>
+   	</classes>
+  </test> 
+</suite> 
+<?xml version="1.0" encoding="UTF-8"?> -->
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Default suite" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test" verbose="2">
+   <parameter name = "pTitle" value = "New and Used Vehicle at Best Prices in Sri Lanka"/>
+    <classes>
+      <class name="com.qa.jenk.AppTest"/>
+    </classes>
+  </test> <!-- Default test -->
+</suite> <!-- Default suite -->
